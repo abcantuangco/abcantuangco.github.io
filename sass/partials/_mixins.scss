@@ -28,7 +28,7 @@
         @include inline-block;
     }
 }
-@mixin setfont( $font, $important: false ){
+@mixin set-font( $font, $important: false ){
     @if ( $important ) {
         font-family: '#{$font}', Arial, Helvetica, sans-serif !important;
     }

@@ -1,14 +1,66 @@
 /********************************
     Global
 *********************************/
+
 body {
     background-color: #333;
 }
 
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
 .main {
-    margin: 100px auto;
-    width: $row-width;
+    margin: rem-calc(100) auto;
+    width: 100%;
+    max-width: $row-width;
     border-top: 20px solid #00E68A;
     border-bottom: 20px solid #00E68A;
     background-color: #fff;
+}
+
+.with-border-bottom {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.sections {
+    padding: rem-calc(30) 0;
+}
+
+.sections h2 {
+    @include set-font('Ubuntu');
+    font-weight: 400;
+    font-style: italic;
+    font-size: rem-calc(25);
+    color: #CCCCCC;
+}
+
+.sections p {
+    @include set-font('PT Sans');
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: rem-calc(14);
+    color: #333333;
+    a {
+        border-bottom: 1px dotted #333333;
+        color: #333333;
+        &:hover {
+            color: #000000;
+        }
+    }
+}
+
+.sections li {
+    @include set-font('PT Sans');
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: rem-calc(14);
+    color: #333333;
+    a {
+        border-bottom: 1px dotted #333333;
+        color: #333333;
+        &:hover {
+            color: #000000;
+        }
+    }
 }

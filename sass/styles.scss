@@ -15,6 +15,10 @@
 @import "foundation/foundation";
 
 // Include partials
+@import "partials/mixins";
 @import "partials/global";
 @import "partials/header";
 @import "partials/intro";
+@import "partials/work";
+@import "partials/skill";
+@import "partials/education";
