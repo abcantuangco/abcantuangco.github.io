@@ -43,13 +43,13 @@
     color: #333333;
     margin-top: 10px;
     @media #{$small-up} {
-        font-size: rem-calc(30);
+        font-size: rem-calc(25);
     }
     @media #{$medium-up} {
-        font-size: rem-calc(32);
+        font-size: rem-calc(35);
     }
     @media #{$large-up} {
-        font-size: rem-calc(32);
+        font-size: rem-calc(35);
     }
 }
 
@@ -58,6 +58,15 @@
     font-weight: 300;
     text-transform: uppercase;
     color: #7D7D7D;
+    @media #{$small-up} {
+        font-size: rem-calc(16);
+    }
+    @media #{$medium-up} {
+        font-size: rem-calc(25);
+    }
+    @media #{$large-up} {
+        font-size: rem-calc(25);
+    }
 }
 
 #header ul {

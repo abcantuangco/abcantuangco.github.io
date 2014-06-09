@@ -8703,19 +8703,19 @@ h1, h2, h3, h4, h5 {
 @media only screen {
   /* line 39, ../sass/partials/_header.scss */
   #header h1 {
-    font-size: 1.875rem;
+    font-size: 1.5625rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
   /* line 39, ../sass/partials/_header.scss */
   #header h1 {
-    font-size: 2rem;
+    font-size: 2.1875rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 39, ../sass/partials/_header.scss */
   #header h1 {
-    font-size: 2rem;
+    font-size: 2.1875rem;
   }
 }
 
@@ -8727,15 +8727,33 @@ h1, h2, h3, h4, h5 {
   text-transform: uppercase;
   color: #7D7D7D;
 }
+@media only screen {
+  /* line 56, ../sass/partials/_header.scss */
+  #header h3 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 56, ../sass/partials/_header.scss */
+  #header h3 {
+    font-size: 1.5625rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 56, ../sass/partials/_header.scss */
+  #header h3 {
+    font-size: 1.5625rem;
+  }
+}
 
-/* line 63, ../sass/partials/_header.scss */
+/* line 72, ../sass/partials/_header.scss */
 #header ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* line 69, ../sass/partials/_header.scss */
+/* line 78, ../sass/partials/_header.scss */
 #header .social li {
   padding: 0;
   margin: 0 0.1875rem 0 0;
@@ -8744,59 +8762,59 @@ h1, h2, h3, h4, h5 {
   zoom: 1;
   vertical-align: top;
 }
-/* line 73, ../sass/partials/_header.scss */
+/* line 82, ../sass/partials/_header.scss */
 #header .social li a {
   font-size: 1.875rem;
   color: #999999;
 }
-/* line 76, ../sass/partials/_header.scss */
+/* line 85, ../sass/partials/_header.scss */
 #header .social li a:hover {
   color: #333333;
 }
 @media only screen {
-  /* line 68, ../sass/partials/_header.scss */
+  /* line 77, ../sass/partials/_header.scss */
   #header .social {
     margin-top: 1.25rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 68, ../sass/partials/_header.scss */
+  /* line 77, ../sass/partials/_header.scss */
   #header .social {
     margin-top: 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 68, ../sass/partials/_header.scss */
+  /* line 77, ../sass/partials/_header.scss */
   #header .social {
     margin-top: 0;
   }
 }
 
-/* line 93, ../sass/partials/_header.scss */
+/* line 102, ../sass/partials/_header.scss */
 #header .contact a {
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   line-height: 1;
   color: #999999;
 }
-/* line 96, ../sass/partials/_header.scss */
+/* line 105, ../sass/partials/_header.scss */
 #header .contact a:hover {
   color: #333333;
 }
 
 @media only screen {
-  /* line 103, ../sass/partials/_header.scss */
+  /* line 112, ../sass/partials/_header.scss */
   #header #social-contact {
     text-align: right;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 108, ../sass/partials/_header.scss */
+  /* line 117, ../sass/partials/_header.scss */
   #header #social-contact {
     text-align: right;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 113, ../sass/partials/_header.scss */
+  /* line 122, ../sass/partials/_header.scss */
   #header #social-contact {
     text-align: left;
   }
