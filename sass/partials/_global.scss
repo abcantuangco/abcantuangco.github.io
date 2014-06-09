@@ -31,8 +31,20 @@ h1, h2, h3, h4, h5 {
     @include set-font('Ubuntu');
     font-weight: 400;
     font-style: italic;
-    font-size: rem-calc(25);
-    color: #CCCCCC;
+    margin-bottom: rem-calc(30);
+    @media #{$small-up} {
+        font-size: rem-calc(30);
+        color: #333333;
+        font-weight: 500;
+    }
+    @media #{$medium-up} {
+        font-size: rem-calc(25);
+        color: #CCCCCC;
+    }
+    @media #{$large-up} {
+        font-size: rem-calc(25);
+        color: #CCCCCC;
+    }
 }
 
 .sections p {

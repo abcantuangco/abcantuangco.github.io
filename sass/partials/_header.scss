@@ -71,3 +71,19 @@
         }
     }
 }
+
+@media #{$small-up} {
+    #header #social-contact {
+        text-align: right;
+    }
+}
+@media #{$medium-up} {
+    #header #social-contact {
+        text-align: right;
+    }
+}
+@media #{$large-up} {
+    #header #social-contact {
+        text-align: left;
+    }
+}
