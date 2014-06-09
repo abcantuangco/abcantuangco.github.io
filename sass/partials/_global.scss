@@ -1,0 +1,14 @@
+/********************************
+    Global
+*********************************/
+body {
+    background-color: #333;
+}
+
+.main {
+    margin: 100px auto;
+    width: $row-width;
+    border-top: 20px solid #00E68A;
+    border-bottom: 20px solid #00E68A;
+    background-color: #fff;
+}

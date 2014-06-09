@@ -1,0 +1,20 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/css3";
+@import "compass/css3/box-shadow";
+@import "compass/css3/pie";
+@import "pie";
+
+// Include Foundation
+@import "foundation/normalize";
+@import "foundation/foundation/functions";
+@import "foundation/foundation/settings";
+@import "foundation/foundation";
+
+// Include partials
+@import "partials/global";
+@import "partials/header";
+@import "partials/intro";
