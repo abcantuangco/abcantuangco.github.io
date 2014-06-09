@@ -12,13 +12,23 @@
 }
 
 #profile-picture {
-    width: 90px;
-    height: 90px;
     background-color: #CCCCCC;
     overflow: hidden;
     @include rounded(100px);
     border: 1px solid #dfdfdf;
     margin-right: 10px;
+    @media #{$small-up} {
+        width: 120px;
+        height: 120px;
+    }
+    @media #{$medium-up} {
+        width: 90px;
+        height: 90px;
+    }
+    @media #{$large-up} {
+        width: 90px;
+        height: 90px;
+    }
 }
 
 #profile-picture img {
@@ -30,9 +40,17 @@
     @include set-font('Oswald');
     font-weight: 400;
     text-transform: uppercase;
-    font-size: rem-calc(32);
     color: #333333;
     margin-top: 10px;
+    @media #{$small-up} {
+        font-size: rem-calc(30);
+    }
+    @media #{$medium-up} {
+        font-size: rem-calc(32);
+    }
+    @media #{$large-up} {
+        font-size: rem-calc(32);
+    }
 }
 
 #header h3 {
@@ -59,6 +77,15 @@
                 color: #333333;
             }
         }
+    }
+    @media #{$small-up} {
+        margin-top: rem-calc(20);
+    }
+    @media #{$medium-up} {
+        margin-top: 0;
+    }
+    @media #{$large-up} {
+        margin-top: 0;
     }
 }
 

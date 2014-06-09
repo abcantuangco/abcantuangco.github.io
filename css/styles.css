@@ -8647,8 +8647,6 @@ h1, h2, h3, h4, h5 {
 
 /* line 14, ../sass/partials/_header.scss */
 #profile-picture {
-  width: 90px;
-  height: 90px;
   background-color: #CCCCCC;
   overflow: hidden;
   -moz-border-radius: 100px 100px 100px 100px;
@@ -8660,8 +8658,29 @@ h1, h2, h3, h4, h5 {
   border: 1px solid #dfdfdf;
   margin-right: 10px;
 }
+@media only screen {
+  /* line 14, ../sass/partials/_header.scss */
+  #profile-picture {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 14, ../sass/partials/_header.scss */
+  #profile-picture {
+    width: 90px;
+    height: 90px;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 14, ../sass/partials/_header.scss */
+  #profile-picture {
+    width: 90px;
+    height: 90px;
+  }
+}
 
-/* line 24, ../sass/partials/_header.scss */
+/* line 34, ../sass/partials/_header.scss */
 #profile-picture img {
   border: 5px solid #ffffff;
   -moz-border-radius: 100px 100px 100px 100px;
@@ -8672,18 +8691,35 @@ h1, h2, h3, h4, h5 {
   border-radius: 100px;
 }
 
-/* line 29, ../sass/partials/_header.scss */
+/* line 39, ../sass/partials/_header.scss */
 #header h1 {
   font-family: "Oswald", Arial, Helvetica, sans-serif;
   line-height: 1;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 2rem;
   color: #333333;
   margin-top: 10px;
 }
+@media only screen {
+  /* line 39, ../sass/partials/_header.scss */
+  #header h1 {
+    font-size: 1.875rem;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 39, ../sass/partials/_header.scss */
+  #header h1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 39, ../sass/partials/_header.scss */
+  #header h1 {
+    font-size: 2rem;
+  }
+}
 
-/* line 38, ../sass/partials/_header.scss */
+/* line 56, ../sass/partials/_header.scss */
 #header h3 {
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -8692,14 +8728,14 @@ h1, h2, h3, h4, h5 {
   color: #7D7D7D;
 }
 
-/* line 45, ../sass/partials/_header.scss */
+/* line 63, ../sass/partials/_header.scss */
 #header ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* line 51, ../sass/partials/_header.scss */
+/* line 69, ../sass/partials/_header.scss */
 #header .social li {
   padding: 0;
   margin: 0 0.1875rem 0 0;
@@ -8708,41 +8744,59 @@ h1, h2, h3, h4, h5 {
   zoom: 1;
   vertical-align: top;
 }
-/* line 55, ../sass/partials/_header.scss */
+/* line 73, ../sass/partials/_header.scss */
 #header .social li a {
   font-size: 1.875rem;
   color: #999999;
 }
-/* line 58, ../sass/partials/_header.scss */
+/* line 76, ../sass/partials/_header.scss */
 #header .social li a:hover {
   color: #333333;
 }
+@media only screen {
+  /* line 68, ../sass/partials/_header.scss */
+  #header .social {
+    margin-top: 1.25rem;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 68, ../sass/partials/_header.scss */
+  #header .social {
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 68, ../sass/partials/_header.scss */
+  #header .social {
+    margin-top: 0;
+  }
+}
 
-/* line 66, ../sass/partials/_header.scss */
+/* line 93, ../sass/partials/_header.scss */
 #header .contact a {
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   line-height: 1;
   color: #999999;
 }
-/* line 69, ../sass/partials/_header.scss */
+/* line 96, ../sass/partials/_header.scss */
 #header .contact a:hover {
   color: #333333;
 }
 
 @media only screen {
-  /* line 76, ../sass/partials/_header.scss */
+  /* line 103, ../sass/partials/_header.scss */
   #header #social-contact {
     text-align: right;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 81, ../sass/partials/_header.scss */
+  /* line 108, ../sass/partials/_header.scss */
   #header #social-contact {
     text-align: right;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 86, ../sass/partials/_header.scss */
+  /* line 113, ../sass/partials/_header.scss */
   #header #social-contact {
     text-align: left;
   }
@@ -8765,36 +8819,57 @@ h1, h2, h3, h4, h5 {
   color: #333333;
   font-style: normal;
   font-size: 1rem;
+  margin-bottom: 0.625rem;
 }
-/* line 13, ../sass/partials/_work.scss */
+/* line 14, ../sass/partials/_work.scss */
 .works h3 {
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   line-height: 1;
   padding: 0;
-  margin: 0;
   font-weight: 300;
   font-style: italic;
   font-size: 0.875rem;
   color: #333333;
+  margin-bottom: 0.625rem;
 }
-/* line 21, ../sass/partials/_work.scss */
+/* line 23, ../sass/partials/_work.scss */
 .works h4 {
-  position: absolute;
   top: 0;
   right: 0;
+  margin: 0;
   display: inline-block;
   *display: inline;
   zoom: 1;
   vertical-align: top;
-  margin: 0;
-  background-color: #efefef;
-  padding: 0.5rem 0.625rem 0.4375rem;
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
   line-height: 1;
   font-size: 0.6875rem;
   text-transform: uppercase;
 }
-/* line 33, ../sass/partials/_work.scss */
+@media only screen {
+  /* line 23, ../sass/partials/_work.scss */
+  .works h4 {
+    position: relative;
+    background-color: #ffffff;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 23, ../sass/partials/_work.scss */
+  .works h4 {
+    position: absolute;
+    background-color: #efefef;
+    padding: 0.5rem 0.625rem 0.4375rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 23, ../sass/partials/_work.scss */
+  .works h4 {
+    position: absolute;
+    background-color: #efefef;
+    padding: 0.5rem 0.625rem 0.4375rem;
+  }
+}
+/* line 46, ../sass/partials/_work.scss */
 .works .work-details {
   margin-top: 1.25rem;
 }
@@ -8843,8 +8918,9 @@ h1, h2, h3, h4, h5 {
   color: #333333;
   font-style: normal;
   font-size: 1rem;
+  margin-bottom: 0.625rem;
 }
-/* line 14, ../sass/partials/_education.scss */
+/* line 15, ../sass/partials/_education.scss */
 .educations h3 {
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -8854,21 +8930,43 @@ h1, h2, h3, h4, h5 {
   font-style: italic;
   font-size: 0.875rem;
   color: #333333;
+  margin-bottom: 0.625rem;
 }
-/* line 22, ../sass/partials/_education.scss */
+/* line 24, ../sass/partials/_education.scss */
 .educations h4 {
-  position: absolute;
   top: 0;
   right: 0;
+  margin: 0;
   display: inline-block;
   *display: inline;
   zoom: 1;
   vertical-align: top;
-  margin: 0;
-  background-color: #efefef;
-  padding: 0.5rem 0.625rem 0.4375rem;
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
   line-height: 1;
   font-size: 0.6875rem;
   text-transform: uppercase;
+}
+@media only screen {
+  /* line 24, ../sass/partials/_education.scss */
+  .educations h4 {
+    position: relative;
+    background-color: #ffffff;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 24, ../sass/partials/_education.scss */
+  .educations h4 {
+    position: absolute;
+    background-color: #efefef;
+    padding: 0.5rem 0.625rem 0.4375rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 24, ../sass/partials/_education.scss */
+  .educations h4 {
+    position: absolute;
+    background-color: #efefef;
+    padding: 0.5rem 0.625rem 0.4375rem;
+  }
 }
