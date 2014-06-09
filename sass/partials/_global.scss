@@ -13,11 +13,21 @@ h1, h2, h3, h4, h5 {
 .main {
     margin: rem-calc(100) auto;
     width: 100%;
-    max-width: $row-width;
+    
     border-top: 20px solid #00E68A;
     border-bottom: 20px solid #00E68A;
     background-color: #fff;
+    @media #{$small-up} {
+        max-width: 100%;
+    }
+    @media #{$medium-up} {
+        max-width: $row-width;
+    }
+    @media #{$large-up} {
+        max-width: $row-width;
+    }
 }
+
 
 .with-border-bottom {
     border-bottom: 1px solid #dfdfdf;
