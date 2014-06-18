@@ -10,6 +10,13 @@ h1, h2, h3, h4, h5 {
     font-weight: normal;
 }
 
+a {
+    outline: none;
+    &:hover {
+        outline: none;
+    }
+}
+
 .main {
     margin: rem-calc(100) auto;
     width: 100%;

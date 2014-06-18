@@ -8522,6 +8522,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* line 13, ../sass/partials/_global.scss */
+a {
+  outline: none;
+}
+/* line 15, ../sass/partials/_global.scss */
+a:hover {
+  outline: none;
+}
+
+/* line 20, ../sass/partials/_global.scss */
 .main {
   margin: 6.25rem auto;
   width: 100%;
@@ -8530,35 +8539,35 @@ h1, h2, h3, h4, h5 {
   background-color: #fff;
 }
 @media only screen {
-  /* line 13, ../sass/partials/_global.scss */
+  /* line 20, ../sass/partials/_global.scss */
   .main {
     max-width: 100%;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 13, ../sass/partials/_global.scss */
+  /* line 20, ../sass/partials/_global.scss */
   .main {
     max-width: 64rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 13, ../sass/partials/_global.scss */
+  /* line 20, ../sass/partials/_global.scss */
   .main {
     max-width: 64rem;
   }
 }
 
-/* line 32, ../sass/partials/_global.scss */
+/* line 39, ../sass/partials/_global.scss */
 .with-border-bottom {
   border-bottom: 1px solid #dfdfdf;
 }
 
-/* line 36, ../sass/partials/_global.scss */
+/* line 43, ../sass/partials/_global.scss */
 .sections {
   padding: 1.875rem 0;
 }
 
-/* line 40, ../sass/partials/_global.scss */
+/* line 47, ../sass/partials/_global.scss */
 .sections h2 {
   font-family: "Ubuntu", Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -8567,7 +8576,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 1.875rem;
 }
 @media only screen {
-  /* line 40, ../sass/partials/_global.scss */
+  /* line 47, ../sass/partials/_global.scss */
   .sections h2 {
     font-size: 1.875rem;
     color: #333333;
@@ -8575,21 +8584,21 @@ h1, h2, h3, h4, h5 {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 40, ../sass/partials/_global.scss */
+  /* line 47, ../sass/partials/_global.scss */
   .sections h2 {
     font-size: 1.5625rem;
     color: #CCCCCC;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 40, ../sass/partials/_global.scss */
+  /* line 47, ../sass/partials/_global.scss */
   .sections h2 {
     font-size: 1.5625rem;
     color: #CCCCCC;
   }
 }
 
-/* line 60, ../sass/partials/_global.scss */
+/* line 67, ../sass/partials/_global.scss */
 .sections p {
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -8598,17 +8607,17 @@ h1, h2, h3, h4, h5 {
   font-size: 0.875rem;
   color: #333333;
 }
-/* line 66, ../sass/partials/_global.scss */
+/* line 73, ../sass/partials/_global.scss */
 .sections p a {
   border-bottom: 1px dotted #333333;
   color: #333333;
 }
-/* line 69, ../sass/partials/_global.scss */
+/* line 76, ../sass/partials/_global.scss */
 .sections p a:hover {
   color: #000000;
 }
 
-/* line 75, ../sass/partials/_global.scss */
+/* line 82, ../sass/partials/_global.scss */
 .sections li {
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -8617,12 +8626,12 @@ h1, h2, h3, h4, h5 {
   font-size: 0.875rem;
   color: #333333;
 }
-/* line 81, ../sass/partials/_global.scss */
+/* line 88, ../sass/partials/_global.scss */
 .sections li a {
   border-bottom: 1px dotted #333333;
   color: #333333;
 }
-/* line 84, ../sass/partials/_global.scss */
+/* line 91, ../sass/partials/_global.scss */
 .sections li a:hover {
   color: #000000;
 }
