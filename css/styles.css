@@ -8921,6 +8921,162 @@ h1, h2, h3, h4, h5 {
 }
 
 /********************************
+    Licenses
+*********************************/
+/* line 4, ../sass/partials/_licenses.scss */
+.licenses {
+  position: relative;
+  margin-bottom: 1.875rem;
+}
+/* line 7, ../sass/partials/_licenses.scss */
+.licenses h2 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  font-size: 300;
+  color: #333333;
+  font-style: normal;
+  font-size: 1rem;
+  margin-bottom: 0.625rem;
+}
+/* line 15, ../sass/partials/_licenses.scss */
+.licenses h3 {
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.875rem;
+  color: #333333;
+  margin-bottom: 0.625rem;
+}
+/* line 24, ../sass/partials/_licenses.scss */
+.licenses h4 {
+  top: 0;
+  right: 0;
+  margin: 0;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+}
+@media only screen {
+  /* line 24, ../sass/partials/_licenses.scss */
+  .licenses h4 {
+    position: relative;
+    background-color: #ffffff;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 24, ../sass/partials/_licenses.scss */
+  .licenses h4 {
+    position: absolute;
+    background-color: #efefef;
+    padding: 0.5rem 0.625rem 0.4375rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 24, ../sass/partials/_licenses.scss */
+  .licenses h4 {
+    position: absolute;
+    background-color: #efefef;
+    padding: 0.5rem 0.625rem 0.4375rem;
+  }
+}
+
+/********************************
+    Seminars
+*********************************/
+/* line 5, ../sass/partials/_seminars.scss */
+.seminars {
+  position: relative;
+  margin-bottom: 1.875rem;
+}
+/* line 8, ../sass/partials/_seminars.scss */
+.seminars h2 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  font-size: 300;
+  color: #333333;
+  font-style: normal;
+  font-size: 1rem;
+  margin-bottom: 0.625rem;
+}
+/* line 16, ../sass/partials/_seminars.scss */
+.seminars h3 {
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.875rem;
+  color: #333333;
+  margin-bottom: 0.625rem;
+}
+/* line 25, ../sass/partials/_seminars.scss */
+.seminars h4 {
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.875rem;
+  color: #333333;
+  margin-bottom: 0.625rem;
+}
+/* line 34, ../sass/partials/_seminars.scss */
+.seminars h5 {
+  top: 0;
+  right: 0;
+  margin: 0;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+}
+@media only screen {
+  /* line 34, ../sass/partials/_seminars.scss */
+  .seminars h5 {
+    font-size: 0.75rem;
+    position: relative;
+    background-color: #ffffff;
+    padding: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 34, ../sass/partials/_seminars.scss */
+  .seminars h5 {
+    position: absolute;
+    background-color: #efefef;
+    padding: 0.5rem 0.625rem 0.4375rem;
+    font-size: 0.6875rem;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 34, ../sass/partials/_seminars.scss */
+  .seminars h5 {
+    position: absolute;
+    background-color: #efefef;
+    padding: 0.5rem 0.625rem 0.4375rem;
+    font-size: 0.6875rem;
+    margin-bottom: 0;
+  }
+}
+
+/********************************
     Education
 *********************************/
 /* line 4, ../sass/partials/_education.scss */
