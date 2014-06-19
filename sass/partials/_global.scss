@@ -47,8 +47,9 @@ a {
 .sections h2 {
     @include set-font('Ubuntu');
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
     margin-bottom: rem-calc(30);
+    letter-spacing: -1px;
     @media #{$small-up} {
         font-size: rem-calc(30);
         color: #333333;
@@ -61,6 +62,12 @@ a {
     @media #{$large-up} {
         font-size: rem-calc(25);
         color: #CCCCCC;
+    }
+    a {
+        color: #333333;
+        &:hover {
+            border-bottom: 1px dotted #333;
+        }
     }
 }
 
@@ -80,16 +87,32 @@ a {
 }
 
 .sections li {
+    list-style: none;
     @include set-font('PT Sans');
     font-weight: 400;
     line-height: 1.5;
     font-size: rem-calc(14);
     color: #333333;
+    padding-left: 20px;
     a {
         border-bottom: 1px dotted #333333;
         color: #333333;
         &:hover {
             color: #000000;
         }
+    }
+    &:before {
+        /* For a round bullet */
+        /* content:'\2022'; */
+        /* For a square bullet */
+        content:'\25A0';
+        display: block;
+        position: relative;
+        max-width: 0px;
+        max-height: 0px;
+        color: #ccc;
+        font-size: 20px;
+        left: -20px;
+        font-size: 13px;
     }
 }
