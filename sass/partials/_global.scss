@@ -18,19 +18,20 @@ a {
 }
 
 .main {
-    margin: rem-calc(100) auto;
     width: 100%;
-    
     border-top: 20px solid #00E68A;
     border-bottom: 20px solid #00E68A;
     background-color: #fff;
     @media #{$small-up} {
+        margin: rem-calc(20) auto;
         max-width: 100%;
     }
     @media #{$medium-up} {
+        margin: rem-calc(50) auto;
         max-width: $row-width;
     }
     @media #{$large-up} {
+        margin: rem-calc(100) auto;
         max-width: $row-width;
     }
 }
@@ -45,15 +46,13 @@ a {
 }
 
 .sections h2 {
-    @include set-font('Ubuntu');
-    font-weight: 400;
+    @include set-font('Abel');
     font-style: normal;
     margin-bottom: rem-calc(30);
     letter-spacing: -1px;
     @media #{$small-up} {
         font-size: rem-calc(30);
         color: #333333;
-        font-weight: 500;
     }
     @media #{$medium-up} {
         font-size: rem-calc(25);

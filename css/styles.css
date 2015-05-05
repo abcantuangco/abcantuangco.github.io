@@ -51,7 +51,7 @@
   background: linear-gradient(#ff0000, #0000ff);
 }
 
-/* normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
@@ -8532,7 +8532,6 @@ a:hover {
 
 /* line 20, ../sass/partials/_global.scss */
 .main {
-  margin: 6.25rem auto;
   width: 100%;
   border-top: 20px solid #00E68A;
   border-bottom: 20px solid #00E68A;
@@ -8541,73 +8540,74 @@ a:hover {
 @media only screen {
   /* line 20, ../sass/partials/_global.scss */
   .main {
+    margin: 1.25rem auto;
     max-width: 100%;
   }
 }
 @media only screen and (min-width: 40.063em) {
   /* line 20, ../sass/partials/_global.scss */
   .main {
+    margin: 3.125rem auto;
     max-width: 64rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 20, ../sass/partials/_global.scss */
   .main {
+    margin: 6.25rem auto;
     max-width: 64rem;
   }
 }
 
-/* line 39, ../sass/partials/_global.scss */
+/* line 40, ../sass/partials/_global.scss */
 .with-border-bottom {
   border-bottom: 1px solid #dfdfdf;
 }
 
-/* line 43, ../sass/partials/_global.scss */
+/* line 44, ../sass/partials/_global.scss */
 .sections {
   padding: 1.875rem 0;
 }
 
-/* line 47, ../sass/partials/_global.scss */
+/* line 48, ../sass/partials/_global.scss */
 .sections h2 {
-  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-family: "Abel", Arial, Helvetica, sans-serif;
   line-height: 1;
-  font-weight: 400;
   font-style: normal;
   margin-bottom: 1.875rem;
   letter-spacing: -1px;
 }
 @media only screen {
-  /* line 47, ../sass/partials/_global.scss */
+  /* line 48, ../sass/partials/_global.scss */
   .sections h2 {
     font-size: 1.875rem;
     color: #333333;
-    font-weight: 500;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 47, ../sass/partials/_global.scss */
+  /* line 48, ../sass/partials/_global.scss */
   .sections h2 {
     font-size: 1.5625rem;
     color: #CCCCCC;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 47, ../sass/partials/_global.scss */
+  /* line 48, ../sass/partials/_global.scss */
   .sections h2 {
     font-size: 1.5625rem;
     color: #CCCCCC;
   }
 }
-/* line 66, ../sass/partials/_global.scss */
+/* line 65, ../sass/partials/_global.scss */
 .sections h2 a {
   color: #333333;
 }
-/* line 68, ../sass/partials/_global.scss */
+/* line 67, ../sass/partials/_global.scss */
 .sections h2 a:hover {
   border-bottom: 1px dotted #333;
 }
 
-/* line 74, ../sass/partials/_global.scss */
+/* line 73, ../sass/partials/_global.scss */
 .sections p {
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -8616,17 +8616,17 @@ a:hover {
   font-size: 0.875rem;
   color: #333333;
 }
-/* line 80, ../sass/partials/_global.scss */
+/* line 79, ../sass/partials/_global.scss */
 .sections p a {
   border-bottom: 1px dotted #333333;
   color: #333333;
 }
-/* line 83, ../sass/partials/_global.scss */
+/* line 82, ../sass/partials/_global.scss */
 .sections p a:hover {
   color: #000000;
 }
 
-/* line 89, ../sass/partials/_global.scss */
+/* line 88, ../sass/partials/_global.scss */
 .sections li {
   list-style: none;
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
@@ -8637,16 +8637,16 @@ a:hover {
   color: #333333;
   padding-left: 20px;
 }
-/* line 97, ../sass/partials/_global.scss */
+/* line 96, ../sass/partials/_global.scss */
 .sections li a {
   border-bottom: 1px dotted #333333;
   color: #333333;
 }
-/* line 100, ../sass/partials/_global.scss */
+/* line 99, ../sass/partials/_global.scss */
 .sections li a:hover {
   color: #000000;
 }
-/* line 104, ../sass/partials/_global.scss */
+/* line 103, ../sass/partials/_global.scss */
 .sections li:before {
   /* For a round bullet */
   /* content:'\2022'; */
@@ -8761,6 +8761,7 @@ a:hover {
   font-weight: 300;
   text-transform: uppercase;
   color: #7D7D7D;
+  letter-spacing: -0.0625rem;
 }
 @media only screen {
   /* line 56, ../sass/partials/_header.scss */
@@ -8781,14 +8782,14 @@ a:hover {
   }
 }
 
-/* line 72, ../sass/partials/_header.scss */
+/* line 73, ../sass/partials/_header.scss */
 #header ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* line 78, ../sass/partials/_header.scss */
+/* line 79, ../sass/partials/_header.scss */
 #header .social li {
   padding: 0;
   margin: 0 0.1875rem 0 0;
@@ -8797,59 +8798,59 @@ a:hover {
   zoom: 1;
   vertical-align: top;
 }
-/* line 82, ../sass/partials/_header.scss */
+/* line 83, ../sass/partials/_header.scss */
 #header .social li a {
   font-size: 1.875rem;
   color: #999999;
 }
-/* line 85, ../sass/partials/_header.scss */
+/* line 86, ../sass/partials/_header.scss */
 #header .social li a:hover {
   color: #333333;
 }
 @media only screen {
-  /* line 77, ../sass/partials/_header.scss */
+  /* line 78, ../sass/partials/_header.scss */
   #header .social {
     margin-top: 1.25rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 77, ../sass/partials/_header.scss */
+  /* line 78, ../sass/partials/_header.scss */
   #header .social {
     margin-top: 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 77, ../sass/partials/_header.scss */
+  /* line 78, ../sass/partials/_header.scss */
   #header .social {
     margin-top: 0;
   }
 }
 
-/* line 102, ../sass/partials/_header.scss */
+/* line 103, ../sass/partials/_header.scss */
 #header .contact a {
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   line-height: 1;
   color: #999999;
 }
-/* line 105, ../sass/partials/_header.scss */
+/* line 106, ../sass/partials/_header.scss */
 #header .contact a:hover {
   color: #333333;
 }
 
 @media only screen {
-  /* line 112, ../sass/partials/_header.scss */
+  /* line 113, ../sass/partials/_header.scss */
   #header #social-contact {
     text-align: right;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 117, ../sass/partials/_header.scss */
+  /* line 118, ../sass/partials/_header.scss */
   #header #social-contact {
     text-align: right;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 122, ../sass/partials/_header.scss */
+  /* line 123, ../sass/partials/_header.scss */
   #header #social-contact {
     text-align: left;
   }

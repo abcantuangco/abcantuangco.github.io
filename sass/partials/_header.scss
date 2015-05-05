@@ -58,6 +58,7 @@
     font-weight: 300;
     text-transform: uppercase;
     color: #7D7D7D;
+    letter-spacing: - rem-calc(1);
     @media #{$small-up} {
         font-size: rem-calc(16);
     }
