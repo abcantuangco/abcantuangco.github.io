@@ -8,7 +8,7 @@
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
     </head>
 <body>
-    <p>test page v6</p>
+    <p>test page v7</p>
     <a href="javascript:;" st_title="Test with encoding" st_url="http://abcantuangco.github.io/test.html" class="btn fb-encoded" >test with encoding</a><br/>
     <a href="javascript:;" st_title="Test without encoding" st_url="http://abcantuangco.github.io/test.html" class="btn fb-notencoded" >test without encoding</a><br/>
     <a href="javascript:;" st_url="http://abcantuangco.github.io/test.html" class="btn fb-notitle" >test without title</a><br/>
@@ -18,28 +18,28 @@
             $('.btn.fb-encoded')
                 .unbind()
                 .on('click',function(){
-                    var btnTitle = $(this).closest('li').attr("st_title");
-                    var btnUrl = $(this).closest('li').attr("st_url");
+                    var btnTitle = $(this).attr("st_title");
+                    var btnUrl = $(this).attr("st_url");
                     var message = encodeURIComponent(btnTitle) + encodeURIComponent(" - ") + encodeURIComponent(btnUrl);
                     var messengerUrl = "fb-messenger://share/?link=" + message;
-                    window.location = messengerUrl;
+                    window.location.href = messengerUrl;
             });
             $('.btn.fb-notencoded')
                 .unbind()
                 .on('click',function(){
-                    var btnTitle = $(this).closest('li').attr("st_title");
-                    var btnUrl = $(this).closest('li').attr("st_url");
+                    var btnTitle = $(this).attr("st_title");
+                    var btnUrl = $(this).attr("st_url");
                     var message = encodeURIComponent(btnTitle) + " - " + encodeURIComponent(btnUrl);
                     var messengerUrl = "fb-messenger://share/?link=" + message;
-                    window.location = messengerUrl;
+                    window.location.href = messengerUrl;
             });
             $('.btn.fb-notitle')
                 .unbind()
                 .on('click',function(){
-                    var btnUrl = $(this).closest('li').attr("st_url");
+                    var btnUrl = $(this).attr("st_url");
                     var message = encodeURIComponent(btnUrl);
                     var messengerUrl = "fb-messenger://share/?link=" + message;
-                    window.location = messengerUrl;
+                    window.location.href = messengerUrl;
             });
         });
     </script>
