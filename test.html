@@ -9,8 +9,9 @@
     </head>
 <body>
     <p>test page</p>
-    <a href="javascript:;" st_title="Test with encoding" st_url="http://abcantuangco.github.io/test.html" class="btn fb-encoded" >test with encoding</a>
-    <a href="javascript:;" st_title="Test without encoding" st_url="http://abcantuangco.github.io/test.html" class="btn fb-notencoded" >test without encoding</a>
+    <a href="javascript:;" st_title="Test with encoding" st_url="http://abcantuangco.github.io/test.html" class="btn fb-encoded" >test with encoding</a><br/>
+    <a href="javascript:;" st_title="Test without encoding" st_url="http://abcantuangco.github.io/test.html" class="btn fb-notencoded" >test without encoding</a><br/>
+    <a href="javascript:;" st_url="http://abcantuangco.github.io/test.html" class="btn fb-notitle" >test without title</a>
     <script>
         $(document).ready(function(){
             $('.btn.fb-encoded')
@@ -28,6 +29,14 @@
                     var btnTitle = $(this).closest('li').attr("st_title");
                     var btnUrl = $(this).closest('li').attr("st_url");
                     var message = encodeURIComponent(btnTitle) + " - " + encodeURIComponent(btnUrl);
+                    var messengerUrl = "fb-messenger://share?link=" + message;
+                    window.location.href = messengerUrl;
+            });
+            $('.btn.fb-notitle')
+                .unbind()
+                .on('click',function(){
+                    var btnUrl = $(this).closest('li').attr("st_url");
+                    var message = encodeURIComponent(btnUrl);
                     var messengerUrl = "fb-messenger://share?link=" + message;
                     window.location.href = messengerUrl;
             });
