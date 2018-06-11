@@ -4,21 +4,34 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>
-Magpakailanman presents &#039;Our Viral  Love: The Lance Fernandez and Ella Layar story&#039; &quot;Sample here&quot; </title>
-    <meta property="og:title" content="&quot;Title&quot; text &quot;text&quot; text &#039;text&#039; – &quot;text&quot; ñ text Ñ text ! text| text&quot; *text* (text) @text@ #text# $text$ %text% ^text^ &amp;text&amp; -text- _text_ =text= +text+ {text} [text] ;text; :text: text |text|  ,text, .text. /text/ ?text? 123text123" />
-        <meta property="og:description" content="&#039;Lead&#039; text &#039;text&#039; text &#039;text&#039; – &#039;text&#039; ñ text Ñ text ! text| text&#039; *text* (text) @text@ #text# $text$ %text% ^text^ &amp;text&amp; -text- _text_ =text= +text+ {text} [text] ;text; :text: \text\ |text| text ,text, .text. /text/ ?text? 123text123" />
-
-    <!-- Twitter Meta -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@gmanetwork" />
-        <meta name="twitter:url" content="http://www.lgmanetwork.com/entertainment/showbiznews/news/29440/title-text-text-text-text-text-n-text-n-text-text-text-text-text-text-text-text-text-text-text-text-text-text-text-text-text-text-text-123text123/story" />
-        <meta name="twitter:title" content="&quot;Title&quot; text &quot;text&quot; text &#039;text&#039; – &quot;text&quot; ñ text Ñ text ! text| text&quot; *text* (text) @text@ #text# $text$ %text% ^text^ &amp;text&amp; -text- _text_ =text= +text+ {text} [text] ;text; :text: text |text|  ,text, .text. /text/ ?text? 123text123">
-        <meta name="twitter:description" content="&#039;Lead&#039; text &#039;text&#039; text &#039;text&#039; – &#039;text&#039; ñ text Ñ text ! text| text&#039; *text* (text) @text@ #text# $text$ %text% ^text^ &amp;text&amp; -text- _text_ =text= +text+ {text} [text] ;text; :text: \text\ |text| text ,text, .text. /text/ ?text? 123text123">
-        <meta name="twitter:image" content="http://test.gmanetwork.com.s3.amazonaws.com/entertainment/entertainment/articles/900_675_320_240_Main_Image10__20170626173704__20170721113950.jpg" />
-
+    <title>Test Page</title>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
     </head>
 <body>
     <p>test page</p>
+    <a href="javascript:;" class="btn fb-encoded" >test with encoding</a>
+    <a href="javascript:;" class="btn fb-notencoded" >test without encoding</a>
+    <script>
+        $(document).ready(function(){
+            $('.btn.fb-encoded')
+                .unbind()
+                .on('click',function(){
+                    var btnTitle = $(this).closest('li').attr("st_title");
+                    var btnUrl = $(this).closest('li').attr("st_url");
+                    var message = encodeURIComponent(btnTitle) + encodeURIComponent(" - ") + encodeURIComponent(btnUrl);
+                    var messengerUrl = "fb-messenger://share?link=" + message;
+                    window.location.href = messengerUrl;
+            });
+            $('.btn.fb-notencoded')
+                .unbind()
+                .on('click',function(){
+                    var btnTitle = $(this).closest('li').attr("st_title");
+                    var btnUrl = $(this).closest('li').attr("st_url");
+                    var message = encodeURIComponent(btnTitle) + " - " + encodeURIComponent(btnUrl);
+                    var messengerUrl = "fb-messenger://share?link=" + message;
+                    window.location.href = messengerUrl;
+            });
+        });
+    </script>
 </body>
 </html>
