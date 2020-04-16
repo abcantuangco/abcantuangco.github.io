@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"i6+/":function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),o=a("9Dj+"),i=a("H8eV");t.default=function(){return l.a.createElement(o.a,null,l.a.createElement(i.a,{title:"404: Not found"}),l.a.createElement("section",{className:"resume-section p-3 p-lg-5 align-items-center animated fadeIn",id:"notfound"},l.a.createElement("h1",null,"NOT FOUND"),l.a.createElement("p",null,"Oops, sorry about that but the page is not available.")))}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-960885dcf60028fa1b15.js.map
